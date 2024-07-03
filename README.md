@@ -138,7 +138,7 @@ DVC
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+    - Save the URI: 471112958851.dkr.ecr.eu-north-1.amazonaws.com/kidney
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -157,7 +157,7 @@ DVC
 	curl -fsSL https://get.docker.com -o get-docker.sh
 
 	sudo sh get-docker.sh
-
+	
 	sudo usermod -aG docker ubuntu
 
 	newgrp docker
